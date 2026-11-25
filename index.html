@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Parkour Template</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <canvas id="view" aria-label="Escena 3D de parkour"></canvas>
+  <section id="menu">
+    <div>
+      <h1>Parkour Template</h1>
+      <p>Salta obstáculos, trepa y corre por las paredes. Tu variante de control: <b id="assigned"></b></p>
+      <div class="row">
+        <button id="play" class="primary">Jugar</button>
+        <button id="compare">Comparar A y B</button>
+      </div>
+      <fieldset>
+        <legend>Variante</legend>
+        <label><input type="radio" name="variant" value="A" /> A, manual: saltas con Espacio</label>
+        <label><input type="radio" name="variant" value="B" /> B, fluida: el sprint salta obstáculos solo</label>
+      </fieldset>
+      <dl>
+        <dt>WASD</dt><dd>mover</dd><dt>Ratón</dt><dd>cámara</dd><dt>Mayús</dt><dd>sprint</dd>
+        <dt>Espacio</dt><dd>saltar, vault, trepar</dd><dt>C</dt><dd>agacharse, deslizar, soltarse</dd><dt>R</dt><dd>reiniciar</dd><dt>Tab</dt><dd>menú</dd>
+      </dl>
+      <footer>Proyecto original de <a href="https://github.com/virtuanista">virtuanista</a>. Libre para que cualquiera lo use: <a href="https://github.com/virtuanista/parkour-template">código en GitHub</a>, licencia MIT.</footer>
+    </div>
+  </section>
+  <div id="hud" hidden>
+    <div class="panel" id="p0"></div><div class="panel right" id="p1" hidden></div>
+    <div id="result" role="status" hidden></div>
+    <div class="touch"><button data-key="KeyC">Agachar</button><button data-key="Space">Saltar</button></div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
