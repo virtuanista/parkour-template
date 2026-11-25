@@ -1,3 +1,5 @@
+<p align="center"><b>Español</b> · <a href="README.en.md">English</a></p>
+
 <div align="center">
 
 # Parkour Template 🏃
@@ -81,13 +83,6 @@ Colisiones con cajas rectas, sin rampas ni mallas; sin multijugador. El A/B usa 
 ## Licencia
 
 Código, nivel y arte originales bajo [MIT](LICENSE), con mecánicas habituales del género. three.js (MIT) pertenece a sus autores. Sin código ni assets de otros juegos o motores.
-
-<details>
-<summary><b>In English</b></summary>
-
-*Parkour Template* is an original, MIT-licensed third-person parkour starter for the browser by virtuanista, built with TypeScript and three.js. Vaults, mantles, ledges, wall runs, slides and rolls, with procedural animation, tests and an A/B harness. Free for anyone to use, modify and publish. [Play it in your browser](https://virtuanista.github.io/parkour-template/).
-
-</details>
 
 <p align="center">
 	Repositorio generado por <a href="https://github.com/virtuanista" target="_blank">virtu 🎣</a>
